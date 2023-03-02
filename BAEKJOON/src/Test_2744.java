@@ -5,23 +5,14 @@ public class Test_2744 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		int i;
-		char c = ' ';
-		
-		String str1 = sc.next();
-		c = str1.charAt(0);
-		
-		for(i = 0; c > 'A' || c < 'z'; i++) {
-			if(c < 'a') {
-			 c = (c-'0')-35;
-			}
-		}
+		String str1 = sc.nextLine();
+		//c = str1.charAt(j); //문자열 str의 4번째 문자를 c에 저장
 	
 		
-		System.out.println(c);
+		System.out.println(str1.length());
 		
 		
-		
+		sc.close();
 		
 	}
 
