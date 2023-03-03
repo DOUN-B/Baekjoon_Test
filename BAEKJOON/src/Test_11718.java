@@ -10,7 +10,7 @@ public class Test_11718 {
 			if (str.length() > 100) {
 				break;
 			}
-				System.out.println(str);
+			System.out.println(str);
 		}
 	}
 }
