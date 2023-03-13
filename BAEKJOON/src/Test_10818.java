@@ -9,7 +9,7 @@ public class Test_10818 {
 		int[] arr = new int[n]; // 배열을 n개만큼 만든다
 
 		for (int i = 0; i < n; i++) {
-			arr[i] = sc.nextInt();
+			arr[i] = sc.nextInt(); //arr[i]의 자리에 값을 입력받는다
 		}
 		int max = arr[0];
 		int min = arr[0];
